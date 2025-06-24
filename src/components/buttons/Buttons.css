@@ -1,0 +1,77 @@
+.custom-button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.add-requisito-button {
+  background-color: #7c3aed;
+  border-color: #7c3aed;
+  color: #ffffff;
+}
+
+.add-button {
+  background-color: #28b463;
+  border-color: #28b463;
+  color: #ffffff;
+}
+
+.add-type-button {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  color: #ffffff;
+}
+
+.submit-button {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  color: #ffffff;
+}
+
+.cancel-button {
+  background-color: #6b7280;
+  border-color: #6b7280;
+  color: #ffffff;
+}
+
+.edit-button {
+  background-color: #eab308;
+  border-color: #eab308;
+  color: #ffffff;
+}
+
+.delete-button {
+  background-color: #ef4444;
+  border-color: #ef4444;
+  color: #ffffff;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1f2937;
+  color: #ffffff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+.custom-button:hover .tooltip {
+  display: block;
+}

@@ -1,0 +1,9 @@
+.loading-message {
+  text-align: center;
+  color: #6b7280;
+}
+
+.error-message {
+  text-align: center;
+  color: #ef4444;
+}
